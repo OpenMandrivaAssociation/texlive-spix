@@ -1,6 +1,6 @@
 Name:		texlive-spix
 Version:	55933
-Release:	1
+Release:	2
 Summary:	Yet another TeX compilation tool: simple, human readable, no option, no magic
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/spix
