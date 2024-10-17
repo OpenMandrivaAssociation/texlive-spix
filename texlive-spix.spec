@@ -3,7 +3,7 @@ Version:	55933
 Release:	2
 Summary:	Yet another TeX compilation tool: simple, human readable, no option, no magic
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/spix
+URL:		https://www.ctan.org/tex-archive/macros/latex/contrib/spix
 License:	gpl3+
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/spix.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/spix.doc.r%{version}.tar.xz
