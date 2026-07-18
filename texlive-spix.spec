@@ -1,5 +1,6 @@
 %global tl_name spix
 %global tl_revision 65050
+%global tl_bin_links spix:%{_texmfdistdir}/scripts/spix/spix.py
 
 Name:		texlive-%{tl_name}
 Epoch:		1
@@ -15,6 +16,8 @@ BuildArch:	noarch
 BuildSystem:	texlive
 Requires:	texlive(spix.bin)
 Provides:	texlive(%{tl_name}) = %{tl_revision}
+Provides:	texlive(%{tl_name}.bin) = %{tl_revision}
+Provides:	texlive-%{tl_name}.bin = %{EVRD}
 
 %description
 SpiX offers a way to store information about the compilation process for
